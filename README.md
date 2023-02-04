@@ -6,7 +6,7 @@ React Material UI protfolio where you can present your Projects, Skills.
 ## Demo
 
 
-![Animation](https://user-images.githubusercontent.com/30008865/178179020-20ec6512-415f-4f44-8982-84d85c7c46a3.gif)
+<!-- ![Animation](https://user-images.githubusercontent.com/30008865/178179020-20ec6512-415f-4f44-8982-84d85c7c46a3.gif) -->
 
 
 ## Features

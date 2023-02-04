@@ -1,0 +1,168 @@
+{
+    "experiance": [
+        {
+            "title": "Web Developer (Student Job)",
+            "institute": "schoenke - eMedia Consulting , Cologne",
+            "start_date": "2021 September",
+            "end_date": "Ongoing",
+            "content": [
+                "Working in PHP, JavaScript, CSS and MySQL"
+            ],
+            "skills": [
+                "Laravel",
+                "jquery",
+                "javascript",
+                "MySQL"
+            ]
+        },
+        {
+            "title": "Web Developer",
+            "institute": "Grab Info-tech pvt. ltd.",
+            "start_date": "2019 August",
+            "end_date": "2020 Feburary",
+            "content": [
+                "Worked on Web Application School Management System (https://a1pathshala.com/#/home) Backend Development with OOP",
+                "The main jobs were the Development of  REST API, Validation and refactoring of old codes, Add new Functionality,  Fixing frontend while integrating to back end",
+                "Worked with MySQL and ORM ",
+                "Worked in Core PHP and Laravel Framework",
+                "worked with javascript,  jquery, AJAX",
+                "Version Control tools like Github, Bitbucket, Gitlab, and SVN",
+                "Tools used PHP Storm, VS Code, Postman, Trello, Asana, Slack"
+            ],
+            "skills": [
+                "Laravel",
+                "jquery",
+                "javascript",
+                "MySQL"
+            ]
+        },
+        {
+            "title": "Junior Web Developer",
+            "institute": "Central Technology, Nepal",
+            "start_date": "2017 November",
+            "end_date": "2019 July",
+            "content": [
+                "Back-end Website Development",
+                "Framework laravel, technology PHP, Jquery",
+                "Main job portfolio website development for companies  Working in PHP, JavaScript, CSS and MySQL",
+                "Maintenance and testing of website",
+                "worked with new technology like Jquery, JavaScript, etc"
+            ],
+            "skills": [
+                "Laravel",
+                "jquery",
+                "javascript",
+                "MySQL"
+            ]
+        },
+        {
+            "title": "Web Developer (internship)",
+            "institute": "Axle Pvt. Ltd., Nepal",
+            "start_date": "2017 May",
+            "end_date": "2017 August",
+            "content": [
+                "Development of website using laravel framework",
+                "Made a News Portal using laravel framework and worked on Database(MySQL). CRUD operation, Photo video upload.  Front end to Back end integration.",
+                "Completed one project",
+                "Learned to work as a team"
+            ],
+            "skills": [
+                "Laravel",
+                "jquery",
+                "javascript",
+                "MySQL"
+            ]
+        }
+    ],
+    "Education": [
+        {
+            "title": "Master in Web and Data Science",
+            "institute": "University of Koblenz-landau, Koblenz, Germany",
+            "start_date": "2020 October",
+            "end_date": "Ongoing",
+            "content": [
+                "Studying subject web science, web retrieval, data science etc."
+            ]
+        },
+        {
+            "title": "Bachelor of Information Management (BIM)",
+            "institute": "College of Applied Business (CAB) - (Tribhuvan University)",
+            "start_date": "2013 ",
+            "end_date": "2017 ",
+            "content": [
+                "Studied various programming languages, IT subjects, and management subjects learned to develop software and website, good knowledge of database, network, and security, well known with the computer system and operating system. With a cumulative GPA of 3.30"
+            ]
+        },
+        {
+            "title": "Intermediate Level- Management",
+            "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
+            "start_date": "2017 November",
+            "end_date": "2019 July",
+            "content": [
+                "Gained insight into the basics of accounting theories. Involved in various community and volunteering work. With 58 percent."
+            ]
+        },
+        {
+            "title": "School Leaving Certificate (SLC)",
+            "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
+            "start_date": "1998",
+            "end_date": "2011",
+            "content": [
+                "Optional subjects were Optional Mathematics and Accounting. With 78.75 percent."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Comming Soon",
+            "content": [
+                "Studying subject web science, web retrieval, data science etc."
+            ],
+            "github": "#",
+            "link": "#"
+        },
+        {
+            "title": "Comming Soon",
+            "content": [
+                "Studying subject web science, web retrieval, data science etc."
+            ],
+            "github": "#",
+            "link": "#"
+        },
+        {
+            "title": "Comming Soon",
+            "content": [
+                "Studying subject web science, web retrieval, data science etc."
+            ],
+            "github": "#",
+            "link": "#"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Backend",
+            "content": [
+                "PHP",
+                "Laravel",
+                "Python",
+                "Flask"
+            ]
+        },
+        {
+            "title": "Front-end",
+            "content": [
+                "CSS",
+                "JS",
+                "Jquery",
+                "Bootstrap"
+            ]
+        },
+        {
+            "title": "Database",
+            "content": [
+                "MySql",
+                "Postgres"
+            ]
+        }
+    ]
+}

@@ -52,7 +52,7 @@ export default function Introduction() {
 
                 <Link href="https://github.com/sudan94" target="blank" underline="none" title="GitHub"  variant="button"><GitHubIcon fontSize="large" color="action"  sx={{ flexGrow: 1, display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { scale: '1.10' } }}  /> </Link>
                 <Link href="https://linkedin.com/in/sudan-upadhaya-9185b3185" target="blank" title="LinkedIn" underline="none" variant="button"  ><LinkedInIcon fontSize="large" color="action" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { scale: '1.10' } }} /> </Link>
-                <Link href="https://linkedin.com/in/sudan-upadhaya-9185b3185" target="blank" title="Kaggle" underline="none" variant="button"  > <ArrowOutwardIcon fontSize="large" color="action" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { scale: '1.10' } }} /></Link>
+                <Link href="https://www.kaggle.com/sudanupadhaya" target="blank" title="Kaggle" underline="none" variant="button"  > <ArrowOutwardIcon fontSize="large" color="action" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { scale: '1.10' } }} /></Link>
             </Box>
         </Container>
     )

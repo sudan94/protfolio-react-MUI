@@ -26,7 +26,7 @@ export default function Projects() {
                 <Grid item key={index} xs={12} sm={6} md={4}>
                     <Card className={classes.cardGrid} sx={{
                         ':hover': {
-                            boxShadow: 8, // theme.shadows[20]
+                            boxShadow: 2, // theme.shadows[20]
                         },
 
                     }} >

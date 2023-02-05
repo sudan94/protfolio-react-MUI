@@ -28,7 +28,6 @@ const App = (props: Props) => {
 
     // The light theme is used by default
     const [isDarkTheme, setIsDarkTheme] = useState(false);
-
     // This function is triggered when the Switch component is toggled
     const changeTheme = () => {
         existingPreference === "light" ? localStorage.setItem("darkState", "dark") :  localStorage.setItem("darkState", "light");

@@ -1,6 +1,9 @@
 .nav_items:hover {
     transform: scale(2)
 }
+html {
+    scroll-behavior: smooth;
+  }
 /* .nav_items {
     background-color: gold;
 } */

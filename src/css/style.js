@@ -6,6 +6,9 @@ const useStyles = makeStyles(() => ({
         padding : '0 0',
 
     },
+    skillCard:{
+        height : "30px",
+    },
     card:{
         height : '100%',
         display: 'flex',

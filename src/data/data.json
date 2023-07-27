@@ -114,28 +114,28 @@
     ],
     "projects": [
         {
-            "title": "Comming Soon",
+            "title": "nepal-province-district",
             "content": [
-                "Studying subject web science, web retrieval, data science etc."
+                "This is a FastAPI project that provides an API to retrieve information about provinces, districts, and municipalities in Nepal."
             ],
-            "github": "#",
-            "link": "#"
+            "github": "https://github.com/sudan94/nepal-province-district",
+            "link": "https://neapl-provience-district.onrender.com/"
         },
         {
-            "title": "Comming Soon",
+            "title": "chat-pdf-hugginface",
             "content": [
-                "Studying subject web science, web retrieval, data science etc."
+                "This is a fun Python project that allows you to chat with a chatbot about the PDF you uploaded. and generate a PDF transcript of the conversation."
             ],
-            "github": "#",
-            "link": "#"
+            "github": "https://github.com/sudan94/chat-pdf-hugginface",
+            "link": "https://github.com/sudan94/chat-pdf-hugginface"
         },
         {
-            "title": "Comming Soon",
+            "title": "CBR",
             "content": [
-                "Studying subject web science, web retrieval, data science etc."
+                "This is a API for a case based reasoner that provides policy recommendation in the context of Covid-19 such as lockdown, mask, and vaccine policies."
             ],
-            "github": "#",
-            "link": "#"
+            "github": "https://github.com/sudan94/cbr-rest-api-fastapi",
+            "link": "https://github.com/sudan94/cbr-rest-api-fastapi"
         }
     ],
     "skills": [

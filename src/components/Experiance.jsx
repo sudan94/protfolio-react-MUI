@@ -40,7 +40,7 @@ export default function Experiance() {
                                             <Item> <Typography sx={{ fontSize: 20 }} color="text.primary" fontWeight="bold" gutterBottom>
                                                 {exp.title}
                                             </Typography>
-                                                <Typography sx={{ fontSize: 17 }} color="theme.palette.text.secondary" fontWeight="bold" align="justify" gutterBottom> {exp.content}</Typography></Item>
+                                                <Typography sx={{ fontSize: 17 }} color="theme.palette.text.secondary" align="justify" gutterBottom> {exp.content}</Typography></Item>
                                         </Grid>
                                     </Grid>
 

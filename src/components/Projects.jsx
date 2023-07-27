@@ -35,7 +35,7 @@ export default function Projects() {
                                 <Typography sx={{ fontSize: 20 }} color="text.primary" fontWeight="bold" gutterBottom>
                                     {projects.title}
                                 </Typography>
-                                <Typography sx={{ fontSize: 17 }} color="text.secondary" fontWeight="bold" align="justify" gutterBottom> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aspernatur illo iste laborum fugiat commodi vero ab quis rerum. Laudantium repellat aliquid provident porro libero illum enim maxime, placeat repellendus.</Typography>
+                                <Typography sx={{ fontSize: 17 }} color="text.secondary" align="justify" gutterBottom> {projects.content} </Typography>
                             </CardContent>
                             <CardActions>
                                 <Grid container spacing={1}>

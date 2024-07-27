@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
 
+/* eslint-disable */
 function HomeIcon(props: SvgIconProps) {
     return (
         <SvgIcon {...props}>

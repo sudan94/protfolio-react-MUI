@@ -40,7 +40,9 @@ export default function Experiance() {
                                             <Item> <Typography sx={{ fontSize: 20 }} color="text.primary" fontWeight="bold" gutterBottom>
                                                 {exp.title}
                                             </Typography>
-                                                <Typography sx={{ fontSize: 17 }} color="theme.palette.text.secondary" align="justify" gutterBottom> {exp.content}</Typography></Item>
+                                                <Typography sx={{ fontSize: 17, marginLeft:-2 }} color="theme.palette.text.secondary" align="justify" gutterBottom> <ul> {exp.content.map((content, index) =>(
+                                                    <li key={index}>{content}</li>
+                                                ))}</ul></Typography></Item>
                                         </Grid>
                                     </Grid>
 

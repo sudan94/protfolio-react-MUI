@@ -6,7 +6,11 @@
             "start_date": "2021 September",
             "end_date": "Ongoing",
             "content": [
-                "Working in PHP, JavaScript, CSS and MySQL"
+                "Developed and maintained PHP-based web applications for scheduling, post-production, and planning software for TV channels in Germany.",
+                "Optimized MySQL database structures and SQL queries for enhanced performance.",
+                "Developed within a custom PHP framework with MVC architecture and modular design.",
+                "Collaborated with major clients such as Sipegal TV, Bild TV, and RTL.",
+                "Technologies: PHP, JavaScript, jQuery, CSS, Git and MySQL."
             ],
             "skills": [
                 "Laravel",
@@ -21,32 +25,10 @@
             "start_date": "2019 August",
             "end_date": "2020 Feburary",
             "content": [
-                "Worked on Web Application School Management System (https://a1pathshala.com/#/home) Backend Development with OOP",
-                "The main jobs were the Development of  REST API, Validation and refactoring of old codes, Add new Functionality,  Fixing frontend while integrating to back end",
-                "Worked with MySQL and ORM ",
-                "Worked in Core PHP and Laravel Framework",
-                "worked with javascript,  jquery, AJAX",
-                "Version Control tools like Github, Bitbucket, Gitlab, and SVN",
-                "Tools used PHP Storm, VS Code, Postman, Trello, Asana, Slack"
-            ],
-            "skills": [
-                "Laravel",
-                "jquery",
-                "javascript",
-                "MySQL"
-            ]
-        },
-        {
-            "title": "Junior Web Developer",
-            "institute": "Central Technology, Nepal",
-            "start_date": "2017 November",
-            "end_date": "2019 July",
-            "content": [
-                "Back-end Website Development",
-                "Framework laravel, technology PHP, Jquery",
-                "Main job portfolio website development for companies  Working in PHP, JavaScript, CSS and MySQL",
-                "Maintenance and testing of website",
-                "worked with new technology like Jquery, JavaScript, etc"
+                "Worked on web application school management system",
+                "Improved PHP codebase and frontend integration while adding features",
+                "Developed REST APIs with Flask in Python, ensuring efficient integration with frontend and backend systems",
+                "Technologies: PHP, Python, jQuery, CSS, Laravel, Flask, Git and MySQL"
             ],
             "skills": [
                 "Laravel",

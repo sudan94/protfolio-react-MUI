@@ -8,14 +8,14 @@ export default function Introduction() {
     // Function will execute on click of button
     const downloadCV = () => {
         // using Java Script method to get PDF file
-        fetch('sudan_upadhaya_Resume.pdf').then(response => {
+        fetch('sudan_upadhaya_cv.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'sudan_upadhaya_Resume.pdf';
+                alink.download = 'sudan_upadhaya_cv.pdf';
                 alink.click();
             })
         })

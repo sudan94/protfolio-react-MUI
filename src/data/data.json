@@ -122,28 +122,28 @@
     ],
     "skills": [
         {
-            "title": "Backend",
+            "title": "Languages",
             "content": [
-                "PHP",
-                "Laravel",
-                "Python",
-                "Flask"
+                "Python", "PHP", "JavaScript", "TypeScript", "HTML", "CSS", "MySQL", "PostgreSQL"
             ]
         },
         {
-            "title": "Front-end",
+            "title": "Frameworks",
             "content": [
-                "CSS",
-                "JS",
-                "Jquery",
-                "Bootstrap"
+                "FastAPI", "Flask", "Laravel", "JQuery", "Bootstrap"
             ]
         },
         {
-            "title": "Database",
+            "title": "Developer Tools",
             "content": [
-                "MySql",
-                "Postgres"
+                "Git", "Docker", "Linux", "Postman", "Jira", "Asana", "Slack"
+            ]
+        },
+        {
+            "title": "Others",
+            "content": [
+                "AJAX", "REST", "SOAP", "JSON", "Agile", "Scrum", "SOLID Principle", "OOP principle", "MVC", "Unit Testing"
+
             ]
         }
     ]

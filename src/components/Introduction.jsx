@@ -24,7 +24,7 @@ export default function Introduction() {
         <div className={classes.container}>
             <Container maxWidth="lg">
                 <Typography variant="h4" align="left" color="textPrimary" gutterBottom className={classes.greetings}> Hello I am Sudan Upadhaya </Typography>
-                <Typography fontSize={19} align="justify" color="textSecondary" paragraph>Hello, I am Sudan. I love bulding web application my expertise is backed developmet.</Typography>
+                <Typography fontSize={19} align="justify" color="textSecondary" paragraph>Hello, I am Sudan. Passionate software engineer skilled in PHP and Python, with experience in building dynamic web applications and optimizing backend systems.</Typography>
                 <div>
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>

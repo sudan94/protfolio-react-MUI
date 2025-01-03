@@ -1,150 +1,159 @@
 {
-    "experiance": [
-        {
-            "title": "Web Developer (Student Job)",
-            "institute": "schoenke - eMedia Consulting , Cologne",
-            "start_date": "2021 September",
-            "end_date": "Ongoing",
-            "content": [
-                "Developed and maintained PHP-based web applications for scheduling, post-production, and planning software for TV channels in Germany.",
-                "Optimized MySQL database structures and SQL queries for enhanced performance.",
-                "Developed within a custom PHP framework with MVC architecture and modular design.",
-                "Collaborated with major clients such as Sipegal TV, Bild TV, and RTL.",
-                "Technologies: PHP, JavaScript, jQuery, CSS, Git and MySQL."
-            ],
-            "skills": [
-                "Laravel",
-                "jquery",
-                "javascript",
-                "MySQL"
-            ]
-        },
-        {
-            "title": "Web Developer",
-            "institute": "Grab Info-tech pvt. ltd.",
-            "start_date": "2019 August",
-            "end_date": "2020 Feburary",
-            "content": [
-                "Worked on web application school management system",
-                "Improved PHP codebase and frontend integration while adding features",
-                "Developed REST APIs with Flask in Python, ensuring efficient integration with frontend and backend systems",
-                "Technologies: PHP, Python, jQuery, CSS, Laravel, Flask, Git and MySQL"
-            ],
-            "skills": [
-                "Laravel",
-                "jquery",
-                "javascript",
-                "MySQL"
-            ]
-        },
-        {
-            "title": "Web Developer (internship)",
-            "institute": "Axle Pvt. Ltd., Nepal",
-            "start_date": "2017 May",
-            "end_date": "2017 August",
-            "content": [
-                "Development of website using laravel framework",
-                "Made a News Portal using laravel framework and worked on Database(MySQL). CRUD operation, Photo video upload.  Front end to Back end integration.",
-                "Completed one project",
-                "Learned to work as a team"
-            ],
-            "skills": [
-                "Laravel",
-                "jquery",
-                "javascript",
-                "MySQL"
-            ]
-        }
-    ],
-    "Education": [
-        {
-            "title": "Master in Web and Data Science",
-            "institute": "University of Koblenz-landau, Koblenz, Germany",
-            "start_date": "2020 October",
-            "end_date": "Ongoing",
-            "content": [
-                "Studying subject web science, web retrieval, data science etc."
-            ]
-        },
-        {
-            "title": "Bachelor of Information Management (BIM)",
-            "institute": "College of Applied Business (CAB) - (Tribhuvan University)",
-            "start_date": "2013 ",
-            "end_date": "2017 ",
-            "content": [
-                "Studied various programming languages, IT subjects, and management subjects learned to develop software and website, good knowledge of database, network, and security, well known with the computer system and operating system. With a cumulative GPA of 3.30"
-            ]
-        },
-        {
-            "title": "Intermediate Level- Management",
-            "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
-            "start_date": "2017 November",
-            "end_date": "2019 July",
-            "content": [
-                "Gained insight into the basics of accounting theories. Involved in various community and volunteering work. With 58 percent."
-            ]
-        },
-        {
-            "title": "School Leaving Certificate (SLC)",
-            "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
-            "start_date": "1998",
-            "end_date": "2011",
-            "content": [
-                "Optional subjects were Optional Mathematics and Accounting. With 78.75 percent."
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "title": "nepal-province-district",
-            "content": [
-                "This is a FastAPI project that provides an API to retrieve information about provinces, districts, and municipalities in Nepal."
-            ],
-            "github": "https://github.com/sudan94/nepal-province-district",
-            "link": "https://neapl-provience-district.onrender.com/"
-        },
-        {
-            "title": "chat-pdf-hugginface",
-            "content": [
-                "This is a fun Python project that allows you to chat with a chatbot about the PDF you uploaded. and generate a PDF transcript of the conversation."
-            ],
-            "github": "https://github.com/sudan94/chat-pdf-hugginface",
-            "link": "https://github.com/sudan94/chat-pdf-hugginface"
-        },
-        {
-            "title": "CBR",
-            "content": [
-                "This is a API for a case based reasoner that provides policy recommendation in the context of Covid-19 such as lockdown, mask, and vaccine policies."
-            ],
-            "github": "https://github.com/sudan94/cbr-rest-api-fastapi",
-            "link": "https://github.com/sudan94/cbr-rest-api-fastapi"
-        }
-    ],
-    "skills": [
-        {
-            "title": "Languages",
-            "content": [
-                "Python", "PHP", "JavaScript", "TypeScript", "HTML", "CSS", "MySQL", "PostgreSQL"
-            ]
-        },
-        {
-            "title": "Frameworks",
-            "content": [
-                "FastAPI", "Flask", "Laravel", "JQuery", "Bootstrap"
-            ]
-        },
-        {
-            "title": "Developer Tools",
-            "content": [
-                "Git", "Docker", "Linux", "Postman", "Jira", "Asana", "Slack"
-            ]
-        },
-        {
-            "title": "Others",
-            "content": [
-                "AJAX", "REST", "SOAP", "JSON", "Agile", "Scrum", "SOLID Principle", "OOP principle", "MVC", "Unit Testing"
-
-            ]
-        }
-    ]
+  "experiance": [
+    {
+      "title": "Junior Software Engineer",
+      "institute": "schoenke - eMedia Consulting , Cologne",
+      "start_date": "2024 December",
+      "end_date": "Onging",
+      "content": [
+        "Leading the backend development for a high-impact project for RTL, focusing on reliable data processing and scalability.",
+        "Integrated RabbitMQ for asynchronous communication and task management across distributed systems.",
+        "Enhanced API performance and ensured seamless data flow between frontend and backend systems using.",
+        "Collaborated with cross-functional teams to deliver robust and scalable solutions."
+      ],
+      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
+    },
+    {
+      "title": "Software Engineer (Student Job)",
+      "institute": "schoenke - eMedia Consulting , Cologne",
+      "start_date": "2021 September",
+      "end_date": "2024 August",
+      "content": [
+        "Developed and maintained PHP-based web applications for scheduling, post-production, and planning software for TV channels in Germany.",
+        "Optimized MySQL database structures and SQL queries for enhanced performance.",
+        "Developed within a custom PHP framework with MVC architecture and modular design.",
+        "Collaborated with major clients such as Sipegal TV, Bild TV, and RTL.",
+        "Technologies: PHP, JavaScript, jQuery, CSS, Git and MySQL."
+      ],
+      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
+    },
+    {
+      "title": "Web Developer",
+      "institute": "Grab Info-tech pvt. ltd.",
+      "start_date": "2019 August",
+      "end_date": "2020 Feburary",
+      "content": [
+        "Worked on web application school management system",
+        "Improved PHP codebase and frontend integration while adding features",
+        "Developed REST APIs with Flask in Python, ensuring efficient integration with frontend and backend systems",
+        "Technologies: PHP, Python, jQuery, CSS, Laravel, Flask, Git and MySQL"
+      ],
+      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
+    },
+    {
+      "title": "Web Developer (internship)",
+      "institute": "Axle Pvt. Ltd., Nepal",
+      "start_date": "2017 May",
+      "end_date": "2017 August",
+      "content": [
+        "Development of website using laravel framework",
+        "Made a News Portal using laravel framework and worked on Database(MySQL). CRUD operation, Photo video upload.  Front end to Back end integration.",
+        "Completed one project",
+        "Learned to work as a team"
+      ],
+      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
+    }
+  ],
+  "Education": [
+    {
+      "title": "Master in Web and Data Science",
+      "institute": "University of Koblenz-landau, Koblenz, Germany",
+      "start_date": "2020 October",
+      "end_date": "Ongoing",
+      "content": [
+        "Studying subject web science, web retrieval, data science etc."
+      ]
+    },
+    {
+      "title": "Bachelor of Information Management (BIM)",
+      "institute": "College of Applied Business (CAB) - (Tribhuvan University)",
+      "start_date": "2013 ",
+      "end_date": "2017 ",
+      "content": [
+        "Studied various programming languages, IT subjects, and management subjects learned to develop software and website, good knowledge of database, network, and security, well known with the computer system and operating system. With a cumulative GPA of 3.30"
+      ]
+    },
+    {
+      "title": "Intermediate Level- Management",
+      "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
+      "start_date": "2017 November",
+      "end_date": "2019 July",
+      "content": [
+        "Gained insight into the basics of accounting theories. Involved in various community and volunteering work. With 58 percent."
+      ]
+    },
+    {
+      "title": "School Leaving Certificate (SLC)",
+      "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
+      "start_date": "1998",
+      "end_date": "2011",
+      "content": [
+        "Optional subjects were Optional Mathematics and Accounting. With 78.75 percent."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "nepal-province-district",
+      "content": [
+        "This is a FastAPI project that provides an API to retrieve information about provinces, districts, and municipalities in Nepal."
+      ],
+      "github": "https://github.com/sudan94/nepal-province-district",
+      "link": "https://neapl-provience-district.onrender.com/"
+    },
+    {
+      "title": "chat-pdf-hugginface",
+      "content": [
+        "This is a fun Python project that allows you to chat with a chatbot about the PDF you uploaded. and generate a PDF transcript of the conversation."
+      ],
+      "github": "https://github.com/sudan94/chat-pdf-hugginface",
+      "link": "https://github.com/sudan94/chat-pdf-hugginface"
+    },
+    {
+      "title": "event-management-laravel-api-react",
+      "content": [
+        "Event Management System is a full-stack web application developed to simplify and streamline the process of planning, organizing, and managing events."
+      ],
+      "github": "https://github.com/sudan94/event-management-laravel-api-react",
+      "link": "https://github.com/sudan94/event-management-laravel-api-react"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Languages",
+      "content": [
+        "Python",
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Frameworks",
+      "content": ["FastAPI", "Flask", "Laravel", "JQuery", "Bootstrap"]
+    },
+    {
+      "title": "Developer Tools",
+      "content": ["Git", "Docker", "Linux", "Postman", "Jira", "Asana", "Slack"]
+    },
+    {
+      "title": "Others",
+      "content": [
+        "AJAX",
+        "REST",
+        "SOAP",
+        "JSON",
+        "Agile",
+        "Scrum",
+        "SOLID Principle",
+        "OOP principle",
+        "MVC",
+        "Unit Testing"
+      ]
+    }
+  ]
 }

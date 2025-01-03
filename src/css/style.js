@@ -33,7 +33,8 @@ const useStyles = makeStyles(() => ({
     },
     contact:{
         padding: "50px 0"
-    }
+    },
+
 
 }));
 

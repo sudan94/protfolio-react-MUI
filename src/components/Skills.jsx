@@ -60,7 +60,6 @@ export default function Skills() {
                 },
               }}
             >
-              <CardActionArea>
                 <CardContent className={classes.cardContent}>
                   <Typography
                     sx={{ fontSize: 20 }}
@@ -94,6 +93,7 @@ export default function Skills() {
                                         </ListItem>
                                     </List> */}
                 </CardContent>
+              <CardActionArea>
               </CardActionArea>
             </Card>
           </Grid>

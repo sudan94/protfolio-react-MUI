@@ -30,13 +30,14 @@ export default function Projects() {
                         },
 
                     }} >
-                        <CardActionArea>
                             <CardContent className={classes.cardContent}>
                                 <Typography sx={{ fontSize: 20 }} color="text.primary" fontWeight="bold" gutterBottom>
                                     {projects.title}
                                 </Typography>
                                 <Typography sx={{ fontSize: 17 }} color="text.secondary" align="justify" gutterBottom> {projects.content} </Typography>
                             </CardContent>
+                        <CardActionArea>
+
                             <CardActions>
                                 <Grid container spacing={1}>
                                     <Grid elevation={0} item xs={6} md={2}>

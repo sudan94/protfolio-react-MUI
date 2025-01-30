@@ -4,6 +4,9 @@ const useStyles = makeStyles(() => ({
 
     cardGrid:{
         padding : '0 0',
+        display: "flex",
+        flexDirection: "column",
+        height: "100%"
 
     },
     skillCard:{

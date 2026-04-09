@@ -1,14 +1,21 @@
-.nav_items:hover {
-    transform: scale(2)
-}
 html {
-    scroll-behavior: smooth;
-  }
-  .MuiCard-root{
-    display: flex;
+  scroll-behavior: smooth;
+}
+
+.MuiAppBar-root {
+  backdrop-filter: blur(8px);
+}
+
+.MuiButton-root {
+  text-transform: uppercase;
+}
+
+.MuiButton-root:hover {
+  opacity: 0.9;
+}
+
+.MuiCard-root {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* .nav_items {
-    background-color: gold;
-} */

@@ -1,158 +1,211 @@
 {
   "experiance": [
     {
-      "title": "Junior Software Engineer",
-      "institute": "schoenke - eMedia Consulting , Cologne",
-      "start_date": "2024 December",
-      "end_date": "Onging",
+      "title": "Software Developer (Full Stack)",
+      "institute": "simpleRedak - .schoenke - eMedia Consulting, Cologne",
+      "start_date": "December 2024",
+      "end_date": "December 2025",
       "content": [
-        "Leading the backend development for a high-impact project for RTL, focusing on reliable data processing and scalability.",
-        "Integrated RabbitMQ for asynchronous communication and task management across distributed systems.",
-        "Enhanced API performance and ensured seamless data flow between frontend and backend systems using.",
-        "Collaborated with cross-functional teams to deliver robust and scalable solutions."
+        "Built RTL REST APIs with PHPUnit TDD for casting workflows.",
+        "Managed RabbitMQ, Linux, and async queues to keep services in sync.",
+        "Cut slow SQL paths by ~60% with query tuning and memory tweaks.",
+        "Technologies: PHP 8+, JavaScript, MySQL, RabbitMQ, Git, Docker"
       ],
-      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
+      "skills": [
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "RabbitMQ",
+        "jQuery",
+        "CSS",
+        "Bootstrap",
+        "Git",
+        "Linux",
+        "PHPUnit",
+        "Docker"
+      ]
     },
     {
-      "title": "Software Engineer (Student Job)",
-      "institute": "schoenke - eMedia Consulting , Cologne",
-      "start_date": "2021 September",
-      "end_date": "2024 August",
+      "title": "Software Developer (Full Stack) - Working Student",
+      "institute": "simpleRedak - .schoenke - eMedia Consulting, Cologne",
+      "start_date": "September 2021",
+      "end_date": "August 2024",
       "content": [
-        "Developed and maintained PHP-based web applications for scheduling, post-production, and planning software for TV channels in Germany.",
-        "Optimized MySQL database structures and SQL queries for enhanced performance.",
-        "Developed within a custom PHP framework with MVC architecture and modular design.",
-        "Collaborated with major clients such as Sipegal TV, Bild TV, and RTL.",
-        "Technologies: PHP, JavaScript, jQuery, CSS, Git and MySQL."
+        "Delivered operations tools for RTL, BILD, and Redseven broadcasters.",
+        "Built a talent portal plus REST API layer for media workflows.",
+        "Refreshed legacy MVC code with SOLID patterns for easier maintenance.",
+        "Migrated multiple apps from PHP 5/7 to PHP 8.3.",
+        "Technologies: PHP 8+, JavaScript, jQuery, CSS, Bootstrap, Git"
       ],
-      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
+      "skills": [
+        "PHP",
+        "JavaScript",
+        "jQuery",
+        "CSS",
+        "Bootstrap",
+        "Git",
+        "MySQL",
+        "SOLID",
+        "OOP",
+        "REST"
+      ]
     },
     {
-      "title": "Web Developer",
-      "institute": "Grab Info-tech pvt. ltd.",
-      "start_date": "2019 August",
-      "end_date": "2020 Feburary",
+      "title": "Full-Stack Developer",
+      "institute": "Grab Info-tech Private Limited, Kathmandu",
+      "start_date": "August 2019",
+      "end_date": "February 2020",
       "content": [
-        "Worked on web application school management system",
-        "Improved PHP codebase and frontend integration while adding features",
-        "Developed REST APIs with Flask in Python, ensuring efficient integration with frontend and backend systems",
-        "Technologies: PHP, Python, jQuery, CSS, Laravel, Flask, Git and MySQL"
+        "Expanded a school management platform with new backend features.",
+        "Designed REST APIs to guide migration from legacy PHP to Laravel.",
+        "Technologies: PHP, Laravel, JavaScript, jQuery, CSS, Git, MySQL"
       ],
-      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
-    },
-    {
-      "title": "Web Developer (internship)",
-      "institute": "Axle Pvt. Ltd., Nepal",
-      "start_date": "2017 May",
-      "end_date": "2017 August",
-      "content": [
-        "Development of website using laravel framework",
-        "Made a News Portal using laravel framework and worked on Database(MySQL). CRUD operation, Photo video upload.  Front end to Back end integration.",
-        "Completed one project",
-        "Learned to work as a team"
-      ],
-      "skills": ["Laravel", "jquery", "javascript", "MySQL"]
+      "skills": [
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "jQuery",
+        "CSS",
+        "Bootstrap",
+        "Git",
+        "MySQL"
+      ]
     }
   ],
   "Education": [
     {
       "title": "Master in Web and Data Science",
-      "institute": "University of Koblenz-landau, Koblenz, Germany",
-      "start_date": "2020 October",
-      "end_date": "Ongoing",
+      "institute": "University of Koblenz, Koblenz, Germany",
+      "start_date": "2020",
+      "end_date": "2024",
       "content": [
-        "Studying subject web science, web retrieval, data science etc."
+        "Key subjects: Web Science, Engineering Web and Data Intensive Systems, Data Science, Machine Learning.",
+        "Master's Thesis: Fine-tuning LLMs for Irony Detection with Python and Hugging Face."
       ]
     },
     {
       "title": "Bachelor of Information Management (BIM)",
-      "institute": "College of Applied Business (CAB) - (Tribhuvan University)",
-      "start_date": "2013 ",
-      "end_date": "2017 ",
+      "institute": "Tribhuvan University, Kathmandu, Nepal",
+      "start_date": "2013",
+      "end_date": "2017",
       "content": [
-        "Studied various programming languages, IT subjects, and management subjects learned to develop software and website, good knowledge of database, network, and security, well known with the computer system and operating system. With a cumulative GPA of 3.30"
-      ]
-    },
-    {
-      "title": "Intermediate Level- Management",
-      "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
-      "start_date": "2017 November",
-      "end_date": "2019 July",
-      "content": [
-        "Gained insight into the basics of accounting theories. Involved in various community and volunteering work. With 58 percent."
-      ]
-    },
-    {
-      "title": "School Leaving Certificate (SLC)",
-      "institute": "Vijayapur Higher Secondary School, Sunsari Dharan",
-      "start_date": "1998",
-      "end_date": "2011",
-      "content": [
-        "Optional subjects were Optional Mathematics and Accounting. With 78.75 percent."
+        "Key subjects: Java Programming, Data Structure and Algorithm, DBMS, Software Engineering"
       ]
     }
   ],
   "projects": [
     {
-      "title": "nepal-province-district",
+      "title": "Event Management Application",
       "content": [
-        "This is a FastAPI project that provides an API to retrieve information about provinces, districts, and municipalities in Nepal."
+        "Containerised event management system with an API-first Laravel backend, React frontend, and PostgreSQL database deployed via Docker Compose."
       ],
-      "github": "https://github.com/sudan94/nepal-province-district",
-      "link": "https://neapl-provience-district.onrender.com/"
+      "github": "https://github.com/sudan94/event-management-laravel-api-react",
+      "link": "https://github.com/sudan94/event-management-laravel-api-react"
+    },
+    {
+      "title": "Vedic Astro App",
+      "content": [
+        "Built a Vedic astrology app that calculates planetary data and lets users chat with an AI assistant using chart-based knowledge."
+      ],
+      "github": "https://github.com/sudan94/astro-ai",
+      "link": "https://vedic-astro-ai.vercel.app/"
+    },
+    {
+      "title": "Chat with PDF",
+      "content": [
+        "Developed an AI chatbot using the OpenAI API to answer questions and extract insights from PDF and DOC documents."
+      ],
+      "github": "https://github.com/sudan94/chat-with-pdf-doc",
+      "link": "https://github.com/sudan94/chat-with-pdf-doc"
+    },
+    {
+      "title": "Mini-PHP Framework",
+      "content": [
+        "Lightweight custom framework with routing, authentication, CSRF protection, input validation, PDO database layer, and Twig templating to explore MVC internals."
+      ],
+      "github": "https://github.com/sudan94/php-mini-framework",
+      "link": "https://github.com/sudan94/php-mini-framework"
+    },
+    {
+      "title": "AI Meeting Minutes",
+      "content": [
+        "End-to-end meeting transcription and summarisation system built with Whisper and an LLM, featuring a FastAPI backend, PostgreSQL storage, and React frontend."
+      ],
+      "github": "https://github.com/sudan94/ai-meeting-minutes",
+      "link": "https://github.com/sudan94/ai-meeting-minutes"
     },
     {
       "title": "chat-pdf-hugginface",
       "content": [
-        "This is a fun Python project that allows you to chat with a chatbot about the PDF you uploaded. and generate a PDF transcript of the conversation."
+        "Fun Python project that chats about a PDF upload and generates a PDF transcript of the conversation."
       ],
       "github": "https://github.com/sudan94/chat-pdf-hugginface",
       "link": "https://github.com/sudan94/chat-pdf-hugginface"
-    },
-    {
-      "title": "event-management-laravel-api-react",
-      "content": [
-        "Event Management System is a full-stack web application developed to simplify and streamline the process of planning, organizing, and managing events."
-      ],
-      "github": "https://github.com/sudan94/event-management-laravel-api-react",
-      "link": "https://github.com/sudan94/event-management-laravel-api-react"
     }
   ],
   "skills": [
     {
       "title": "Languages",
       "content": [
-        "Python",
         "PHP",
+        "Python",
         "JavaScript",
         "TypeScript",
         "HTML",
-        "CSS",
-        "MySQL",
-        "PostgreSQL"
+        "CSS"
       ]
     },
     {
-      "title": "Frameworks",
-      "content": ["FastAPI", "Flask", "Laravel", "JQuery", "Bootstrap"]
-    },
-    {
-      "title": "Developer Tools",
-      "content": ["Git", "Docker", "Linux", "Postman", "Jira", "Asana", "Slack"]
-    },
-    {
-      "title": "Others",
+      "title": "Frameworks & Libraries",
       "content": [
-        "AJAX",
-        "REST",
-        "SOAP",
-        "JSON",
-        "Agile",
-        "Scrum",
-        "SOLID Principle",
-        "OOP principle",
-        "MVC",
-        "Unit Testing"
+        "FastAPI",
+        "Flask",
+        "Laravel",
+        "React",
+        "jQuery",
+        "Bootstrap",
+        "MUI"
+      ]
+    },
+    {
+      "title": "Databases",
+      "content": [
+        "MySQL",
+        "PostgreSQL",
+        "SQL query optimisation",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "title": "Infrastructure & Tools",
+      "content": [
+        "Docker",
+        "RabbitMQ",
+        "Git",
+        "Linux",
+        "CI/CD",
+        "Postman",
+        "PHPUnit",
+        "Pytest"
+      ]
+    },
+    {
+      "title": "Concepts",
+      "content": [
+        "REST API design",
+        "OOP",
+        "SOLID principles",
+        "Unit Testing",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "title": "AI / LLM",
+      "content": [
+        "OpenAI APIs",
+        "Whisper",
+        "LangChain",
+        "RAG"
       ]
     }
   ]

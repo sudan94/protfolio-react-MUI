@@ -7,12 +7,10 @@ import {
   Grid,
   Container,
   CardActionArea,
-  List,
-  ListItem,
-  ListItemText,
   Box,
 } from "@mui/material";
 import { BoxProps } from "@mui/material/Box";
+import { alpha } from "@mui/material/styles";
 import useStyles from "../css/style";
 
 export default function Skills() {
@@ -23,8 +21,6 @@ export default function Skills() {
         sx={{
           p: 1,
           m: 1,
-          color: (theme) =>
-            theme.palette.mode === "dark" ? "grey.300" : "grey.800",
           border: "1px solid",
           borderRadius: 2,
           fontSize: "0.875rem",
@@ -36,18 +32,26 @@ export default function Skills() {
     );
   }
 
+  const badgeColors = [
+    "#c62828",
+    "#1565c0",
+    "#2e7d32",
+    "#6a1b9a",
+    "#ef6c00",
+    "#00695c",
+  ];
+
   const classes = useStyles();
   return (
-    <Container className={classes.cardGrid} maxWidth="lg" id="skills">
+    <Container className={`${classes.cardGrid} ${classes.sectionBlock}`} maxWidth="lg" id="skills">
       <Typography
         variant="h4"
         align="left"
         color="textPrimary"
         gutterBottom
-        className={classes.greetings}
+        className={classes.sectionHeading}
       >
-        {" "}
-        Skills{" "}
+        Skills
       </Typography>
       <Grid container spacing={4}>
         {data.skills.map((skills, index) => (
@@ -81,7 +85,20 @@ export default function Skills() {
                     }}
                   >
                     {skills.content.map((skill_items, index) => (
-                      <Item>{skill_items}</Item>
+                      <Item
+                        key={`${skills.title}-${index}`}
+                        sx={{
+                          backgroundColor: alpha(
+                            badgeColors[index % badgeColors.length],
+                            0.15
+                          ),
+                          borderColor: badgeColors[index % badgeColors.length],
+                          color: badgeColors[index % badgeColors.length],
+                          boxShadow: "none",
+                        }}
+                      >
+                        {skill_items}
+                      </Item>
                     ))}
                   </Box>
 

@@ -1,8 +1,8 @@
 import React from "react";
-import { Typography, AppBar, Container, Toolbar, Button, Box, Divider, List,ListItem,  ListItemButton, ListItemText, CssBaseline, IconButton, Drawer } from '@mui/material'
+import { Typography, AppBar, Container, Toolbar, Button, Box, Divider, List, ListItem, ListItemButton, ListItemText, IconButton, Drawer, CssBaseline } from '@mui/material'
 import useStyles from "../css/style";
-import WbIncandescentIcon from '@mui/icons-material/WbIncandescent';
 import MenuIcon from '@mui/icons-material/Menu';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
 
 const navItems = [
     { id: 1, name: "Experiance", href: "#experiance" },
@@ -20,7 +20,7 @@ export default function Nav(props) {
       const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
     };
-      const container = window !== undefined ? () => window().document.body : undefined;
+    const container = window !== undefined ? () => window().document.body : undefined;
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
@@ -37,67 +37,67 @@ export default function Nav(props) {
                     </ListItem>
                 ))}
             </List>
-            <Button color="inherit" onClick={props.data} >
-                <WbIncandescentIcon fontSize="medium" />
-            </Button>
+            <Box sx={{ display: 'flex', justifyContent: 'center', paddingBottom: 1 }}>
+                <Button variant="outlined" onClick={props.data} startIcon={<Brightness4Icon />} size="small">Theme</Button>
+            </Box>
         </Box>
     );
     return (
         <Box sx={{ display: 'flex', boxShadow: 'none' }}>
-        <CssBaseline />
-        <AppBar color="inherit" component="nav" elevation={0} className={classes.toolbar_nav}>
-            <Container maxWidth="lg">
-                <Toolbar >
-                    <IconButton
-                        color="inherit"
-                        aria-label="open drawer"
-                        edge="start"
-                        onClick={handleDrawerToggle}
-                        sx={{ mr: 2, display: { sm: 'none' } }}
-                    >
-                        <MenuIcon />
-                    </IconButton>
+            <CssBaseline />
+            <AppBar color="inherit" component="nav" elevation={0} className={classes.toolbar_nav} sx={{ borderBottom: '1px solid #111', backgroundColor: 'transparent' }}>
+                <Container maxWidth="lg">
+                    <Toolbar>
+                        <IconButton
+                            color="inherit"
+                            aria-label="open drawer"
+                            edge="start"
+                            onClick={handleDrawerToggle}
+                            sx={{ mr: 2, display: { sm: 'none' } }}
+                        >
+                            <MenuIcon />
+                        </IconButton>
 
-                    <Typography
-                        variant="h4"
-                        component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, '&:hover': { scale: '1.10' } }}
-                    >
-                        S.U
-                    </Typography>
-                    <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                        {navItems.map((item) => (
-                            <Button key={item.id} color="inherit" href={item.href}>
-                                <Typography fontWeight={700}>  {item.name}</Typography>
-                            </Button>
-                        ))}
-                        <Button color="inherit" onClick={props.data} >
-                            <WbIncandescentIcon fontSize="medium" />
-                        </Button>
-                    </Box>
-                </Toolbar>
-            </Container>
-        </AppBar>
-        <Box component="nav">
-            <Drawer
-                container={container}
-                variant="temporary"
-                open={mobileOpen}
-                onClose={props.data[0]}
-                ModalProps={{
-                    keepMounted: true, // Better open performance on mobile.
-                }}
-                sx={{
-                    display: { xs: 'block', sm: 'none' },
-                    '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-                }}
-            >
-                {drawer}
-            </Drawer>
+                        <Typography
+                            variant="h4"
+                            component="div"
+                            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, '&:hover': { scale: '1.1' } }}
+                        >
+                            S.U
+                        </Typography>
+                        <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+                            {navItems.map((item) => (
+                                <Button key={item.id} color="inherit" href={item.href} className={classes.navButton}>
+                                    {item.name}
+                                </Button>
+                            ))}
+                            <IconButton color="inherit" onClick={props.data} size="small" aria-label="Toggle theme">
+                                <Brightness4Icon />
+                            </IconButton>
+                        </Box>
+                    </Toolbar>
+                </Container>
+            </AppBar>
+            <Box component="nav">
+                <Drawer
+                    container={container}
+                    variant="temporary"
+                    open={mobileOpen}
+                    onClose={handleDrawerToggle}
+                    ModalProps={{
+                        keepMounted: true, // Better open performance on mobile.
+                    }}
+                    sx={{
+                        display: { xs: 'block', sm: 'none' },
+                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                    }}
+                >
+                    {drawer}
+                </Drawer>
+            </Box>
+            <Box component="main" sx={{ p: 3 }}>
+                <Toolbar />
+            </Box>
         </Box>
-        <Box component="main" sx={{ p: 3 }}>
-            <Toolbar />
-        </Box>
-    </Box>
     )
 }

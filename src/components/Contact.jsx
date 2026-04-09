@@ -1,59 +1,94 @@
 import React from "react";
-import { Container, Link, Box } from '@mui/material'
+import { Container, Link, Box, Typography } from '@mui/material'
 import useStyles from "../css/style";
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
+import { useTheme } from '@mui/material/styles';
 
-/* eslint-disable */
-function HomeIcon(props: SvgIconProps) {
-    return (
-        <SvgIcon {...props}>
-            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-        </SvgIcon>
-    );
-}
-
-export default function Introduction() {
+export default function Contact() {
     const classes = useStyles();
+    const theme = useTheme();
+    const cardBg = theme.palette.mode === "dark" ? "#0d0d0d" : "#fff";
+    const shadow = theme.palette.mode === "dark" ? "0 15px 35px rgba(0,0,0,0.5)" : "0 20px 45px rgba(0,0,0,0.08)";
+    const textColor = theme.palette.text.primary;
     return (
         <Container className={classes.contact} align="center" maxWidth="lg" id="contact">
-            <Link title="Send Me an eMail"
-                variant="button"
-                color="text.primary"
-                href="mailto: sudanupadhaya@gmail.com"
-                fontSize={40}
-                underline="none"
-                sx={{
-                    '&:hover .email_icon': {
-                        color: "#afafaf",
-                    },
-                }}
-            >
-                Contact Me
-                <MailOutlineIcon fontSize="large" className="email_icon" color="action" sx={{
-                    ':hover': {
-                        color: "#afafaf",
-                    },
-                    padding: "0px 0px",
-                    ml: "20px",
-                    marginBottom: "-9px"
-                }} />
-
-            </Link>
             <Box
                 sx={{
-                    '& > :not(style)': {
-                        m: 2,
-                    },
+                    borderRadius: "20px",
+                    border: `1px solid ${textColor}`,
+                    padding: "2.5rem",
+                    maxWidth: "850px",
+                    margin: "0 auto",
+                    backgroundColor: cardBg,
+                    boxShadow: shadow,
+                    textAlign: "left"
                 }}
             >
-
-                <Link href="https://github.com/sudan94" target="blank" underline="none" title="GitHub"  variant="button"><GitHubIcon fontSize="large" color="action"  sx={{ flexGrow: 1, display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { scale: '1.10' } }}  /> </Link>
-                <Link href="https://linkedin.com/in/sudan-upadhaya-9185b3185" target="blank" title="LinkedIn" underline="none" variant="button"  ><LinkedInIcon fontSize="large" color="action" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { scale: '1.10' } }} /> </Link>
-                <Link href="https://leetcode.com/sudan94/" target="blank" title="LeetCode" underline="none" variant="button"  > <ArrowOutwardIcon fontSize="large" color="action" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { scale: '1.10' } }} /></Link>
+                <Typography
+                    variant="h4"
+                    sx={{
+                        fontSize: "2rem",
+                        fontWeight: 700,
+                        letterSpacing: "0.28em",
+                        textTransform: "uppercase",
+                        marginBottom: "0.5rem",
+                        textAlign: "center",
+                    }}
+                >
+                    Contact
+                </Typography>
+                <Typography
+                    variant="body1"
+                    sx={{
+                        fontSize: "1rem",
+                        maxWidth: "640px",
+                        marginBottom: "1.5rem",
+                        color: theme.palette.mode === "dark" ? "#e0e0e0" : "rgba(0,0,0,0.8)"
+                    }}
+                >
+                </Typography>
+                <Box
+                    sx={{
+                        display: "flex",
+                        justifyContent: "center",
+                        flexWrap: "wrap",
+                        gap: "1rem"
+                    }}
+                >
+                    {[
+                        { href: "mailto:sudanupadhaya@gmail.com", label: "Email me", icon: <MailOutlineIcon /> },
+                        { href: "https://github.com/sudan94", label: "GitHub", icon: <GitHubIcon /> },
+                        { href: "https://linkedin.com/in/sudan-upadhaya-9185b3185", label: "LinkedIn", icon: <LinkedInIcon /> },
+                    ].map((item) => (
+                        <Link
+                            key={item.label}
+                            href={item.href}
+                            target={item.href.startsWith("http") ? "_blank" : undefined}
+                            underline="none"
+                            sx={{
+                                borderRadius: "999px",
+                                border: `1px solid ${textColor}`,
+                                padding: "0.55rem 1.6rem",
+                                textTransform: "none",
+                                fontWeight: 600,
+                                letterSpacing: "0.08em",
+                                display: "flex",
+                                alignItems: "center",
+                                gap: "0.5rem",
+                                color: textColor,
+                                "&:hover": {
+                                    backgroundColor: theme.palette.mode === "dark"
+                                        ? "rgba(255,255,255,0.05)"
+                                        : "rgba(0,0,0,0.04)"
+                                }
+                            }}
+                        >
+                            {item.icon} {item.label}
+                        </Link>
+                    ))}
+                </Box>
             </Box>
         </Container>
     )

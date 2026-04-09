@@ -19,8 +19,8 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Projects() {
     const classes = useStyles();
     return (
-        <Container className={classes.cardGrid} maxWidth="lg" id="projects">
-        <Typography variant="h4" align="left" color="textPrimary" gutterBottom className={classes.greetings}> Projects </Typography>
+        <Container className={`${classes.cardGrid} ${classes.sectionBlock}`} maxWidth="lg" id="projects">
+        <Typography variant="h4" align="left" color="textPrimary" gutterBottom className={classes.sectionHeading}>Projects</Typography>
         <Grid container spacing={4}>
             {data.projects.map((projects, index) => (
                 <Grid item key={index} xs={12} sm={6} md={4}>
@@ -34,7 +34,7 @@ export default function Projects() {
                                 <Typography sx={{ fontSize: 20 }} color="text.primary" fontWeight="bold" gutterBottom>
                                     {projects.title}
                                 </Typography>
-                                <Typography sx={{ fontSize: 17 }} color="text.secondary" align="justify" gutterBottom> {projects.content} </Typography>
+                                <Typography sx={{ fontSize: 17 }} color="text.secondary" align="justify" gutterBottom> {projects.content.join(" ")} </Typography>
                             </CardContent>
                         <CardActionArea>
 

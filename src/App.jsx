@@ -20,7 +20,7 @@ interface Props {
 
 const App = (props: Props) => {
     const classes = useStyles();
-
+    const year = new Date().getFullYear();
     let existingPreference = localStorage.getItem("darkState");
     if(!existingPreference){
         existingPreference = "light";
@@ -74,7 +74,7 @@ const App = (props: Props) => {
                 </Container>
                 <footer className={classes.footer}>
                     <Typography variant="h6" align="center" gutterBottom>Made By Sudan</Typography>
-                    <Typography variant="subtitle1" align="center" color="textSecondary" gutterBottom>©copyright</Typography>
+                    <Typography variant="subtitle1" align="center" color="textSecondary" gutterBottom>© {year}</Typography>
 
                 </footer>
             </ThemeProvider>

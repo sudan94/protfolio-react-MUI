@@ -8,7 +8,7 @@ import Paper from '@mui/material/Paper';
 import useStyles from "../css/style";
 
 const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? 'dark' : 'light',
+    backgroundColor: theme.palette.mode === 'dark' ? '#1f1f1f' : '#fafafa',
     ...theme.typography.body2,
     padding: theme.spacing(1),
     textAlign: 'left',

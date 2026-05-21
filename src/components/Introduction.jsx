@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid, Container, Button, Box } from '@mui/material'
+import { Typography, Grid, Container, Box } from '@mui/material'
 import useStyles from "../css/style";
 
 export default function Introduction() {
@@ -20,7 +20,7 @@ export default function Introduction() {
                 <Grid container spacing={4} alignItems="flex-start">
                     <Grid item xs={12} md={7}>
                         <Typography className={classes.heroTitle} component="h1">Hi, I'm Sudan.</Typography>
-                        <div className={classes.heroAccent}></div>
+                        <Box className={classes.heroAccent} sx={{ bgcolor: 'text.primary' }} />
                         <Typography className={classes.heroSub} color="textSecondary">
                             I write code for a living and for fun. PHP by day, Python and LLMs by night. I’m passionate about crafting efficient, scalable software and exploring the latest in AI and LLM technologies. When I’m not coding, you can find me tinkering with new technologies or enjoying a good book.
                         </Typography>

@@ -45,9 +45,11 @@ export default function Contact() {
                         fontSize: "1rem",
                         maxWidth: "640px",
                         marginBottom: "1.5rem",
+                        textAlign: "center",
                         color: theme.palette.mode === "dark" ? "#e0e0e0" : "rgba(0,0,0,0.8)"
                     }}
                 >
+                    Open to new opportunities and collaborations. Feel free to reach out.
                 </Typography>
                 <Box
                     sx={{

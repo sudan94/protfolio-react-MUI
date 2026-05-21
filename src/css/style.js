@@ -52,7 +52,6 @@ const useStyles = makeStyles(() => ({
     heroAccent: {
         width: "70px",
         height: "4px",
-        backgroundColor: "#111",
         borderRadius: "999px",
         marginBottom: "1rem"
     },

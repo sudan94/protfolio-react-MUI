@@ -45,20 +45,18 @@ export default function Projects() {
                                             ':hover': {
                                                 color: "black",
                                             },
-
                                         }} /> </Link></Item>
                                     </Grid>
-                                    <Grid elevation={0} item xs={6} md={2}>
-                                        <Item> <Link variant="button" href={projects.link}><LinkIcon fontSize="large" color="action" sx={{
-                                            ':hover': {
-                                                color: "black",
-                                            },
-
+                                    {projects.link !== "" && (
+                                        <Grid elevation={0} item xs={6} md={2}>
+                                            <Item> <Link variant="button" href={projects.link}><LinkIcon fontSize="large" color="action" sx={{
+                                                ':hover': {
+                                                    color: "black",
+                                                },
                                         }} /> </Link></Item>
                                     </Grid>
-
+                                    )}
                                 </Grid>
-
                             </CardActions>
                         </CardActionArea>
                     </Card>

@@ -100,7 +100,7 @@
         "Containerised event management system with an API-first Laravel backend, React frontend, and PostgreSQL database deployed via Docker Compose."
       ],
       "github": "https://github.com/sudan94/event-management-laravel-api-react",
-      "link": "https://github.com/sudan94/event-management-laravel-api-react"
+      "link": ""
     },
     {
       "title": "Vedic Astro App",
@@ -116,7 +116,7 @@
         "Developed an AI chatbot using the OpenAI API to answer questions and extract insights from PDF and DOC documents."
       ],
       "github": "https://github.com/sudan94/chat-with-pdf-doc",
-      "link": "https://github.com/sudan94/chat-with-pdf-doc"
+      "link": ""
     },
     {
       "title": "Mini-PHP Framework",
@@ -124,7 +124,7 @@
         "Lightweight custom framework with routing, authentication, CSRF protection, input validation, PDO database layer, and Twig templating to explore MVC internals."
       ],
       "github": "https://github.com/sudan94/php-mini-framework",
-      "link": "https://github.com/sudan94/php-mini-framework"
+      "link": ""
     },
     {
       "title": "AI Meeting Minutes",
@@ -132,7 +132,7 @@
         "End-to-end meeting transcription and summarisation system built with Whisper and an LLM, featuring a FastAPI backend, PostgreSQL storage, and React frontend."
       ],
       "github": "https://github.com/sudan94/ai-meeting-minutes",
-      "link": "https://github.com/sudan94/ai-meeting-minutes"
+      "link": ""
     },
     {
       "title": "chat-pdf-hugginface",
@@ -140,7 +140,7 @@
         "Fun Python project that chats about a PDF upload and generates a PDF transcript of the conversation."
       ],
       "github": "https://github.com/sudan94/chat-pdf-hugginface",
-      "link": "https://github.com/sudan94/chat-pdf-hugginface"
+      "link": ""
     }
   ],
   "skills": [

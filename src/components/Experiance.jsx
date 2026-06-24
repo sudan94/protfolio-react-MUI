@@ -40,6 +40,9 @@ export default function Experiance() {
                                                 <Typography sx={{ fontSize: 20 }} color="text.primary" fontWeight="bold" gutterBottom>
                                                     {exp.title}
                                                 </Typography>
+                                                <Typography variant="body2" color="text.secondary" sx={{ fontStyle: "italic", marginBottom: "0.5rem" }}>
+                                                    {exp.institute}
+                                                </Typography>
                                                 <Box sx={{ display: "flex", flexDirection: "column", gap: 0.5 }}>
                                                     {exp.content.map((content, idx) => (
                                                         <Typography key={idx} variant="body2" color="text.secondary" component="p" sx={{ letterSpacing: "0.02em" }}>

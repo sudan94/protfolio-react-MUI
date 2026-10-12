@@ -1,26 +1,23 @@
 import React from "react";
-import { Typography, AppBar, Container, Toolbar, Button, Box, Divider, List, ListItem, ListItemButton, ListItemText, IconButton, Drawer, CssBaseline } from '@mui/material'
+import { Typography, AppBar, Container, Toolbar, Button, Box, Divider, List, ListItem, ListItemButton, ListItemText, IconButton, Drawer, Tooltip } from '@mui/material'
 import useStyles from "../css/style";
 import MenuIcon from '@mui/icons-material/Menu';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 
 const navItems = [
-    { id: 1, name: "Experiance", href: "#experiance" },
-    { id: 2, name: "Projects", href: "#projects" },
+    { id: 1, name: "Experience", href: "#experiance" },
+    // { id: 2, name: "Projects", href: "#projects" },
     { id: 3, name: "Skills", href: "#skills" },
-    { id: 4, name: "Contact", href: "#contact" },
+    { id: 5, name: "Contact", href: "#contact" },
 ];
 const drawerWidth = 240;
 
 export default function Nav(props) {
     const classes = useStyles();
-      // for toogle display hamburger button
-      const { window } = props;
-      const [mobileOpen, setMobileOpen] = React.useState(false);
-      const handleDrawerToggle = () => {
+    const [mobileOpen, setMobileOpen] = React.useState(false);
+    const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
     };
-    const container = window !== undefined ? () => window().document.body : undefined;
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
@@ -33,7 +30,6 @@ export default function Nav(props) {
                         <ListItemButton href={item.href} sx={{ textAlign: 'center' }}>
                             <ListItemText color="inherit" primary={item.name} />
                         </ListItemButton>
-
                     </ListItem>
                 ))}
             </List>
@@ -43,44 +39,57 @@ export default function Nav(props) {
         </Box>
     );
     return (
-        <Box sx={{ display: 'flex', boxShadow: 'none' }}>
-            <CssBaseline />
-            <AppBar color="inherit" component="nav" elevation={0} className={classes.toolbar_nav} sx={{ borderBottom: '1px solid #111', backgroundColor: 'transparent' }}>
+        <Box sx={{ display: 'flex' }}>
+            <AppBar
+                color="inherit"
+                component="nav"
+                elevation={0}
+                className={classes.toolbar_nav}
+                sx={{
+                    borderBottom: 1,
+                    borderColor: 'divider',
+                    backgroundColor: (theme) => theme.palette.mode === 'dark' ? 'rgba(10,10,10,0.75)' : 'rgba(243,247,249,0.75)',
+                }}
+            >
                 <Container maxWidth="lg">
-                    <Toolbar>
+                    <Toolbar disableGutters>
                         <IconButton
                             color="inherit"
                             aria-label="open drawer"
                             edge="start"
                             onClick={handleDrawerToggle}
-                            sx={{ mr: 2, display: { sm: 'none' } }}
+                            sx={{ mr: 1, display: { sm: 'none' } }}
                         >
                             <MenuIcon />
                         </IconButton>
 
                         <Typography
-                            variant="h4"
-                            component="div"
-                            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, '&:hover': { scale: '1.1' } }}
+                            variant="h5"
+                            component="a"
+                            href="#introduction"
+                            className={classes.logo}
+                            sx={{ flexGrow: 1, color: 'primary.main' }}
                         >
                             S.U
                         </Typography>
-                        <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+                        <Box sx={{ display: { xs: 'none', sm: 'flex' }, alignItems: 'center' }}>
                             {navItems.map((item) => (
                                 <Button key={item.id} color="inherit" href={item.href} className={classes.navButton}>
                                     {item.name}
                                 </Button>
                             ))}
-                            <IconButton color="inherit" onClick={props.data} size="small" aria-label="Toggle theme">
+                            <Divider orientation="vertical" flexItem sx={{ mx: 1, my: 1.5 }} />
+                        </Box>
+                        <Tooltip title="Toggle theme">
+                            <IconButton color="inherit" onClick={props.data} size="small" aria-label="Toggle theme" sx={{ display: { xs: 'none', sm: 'inline-flex' }, '&:hover': { color: 'primary.main' } }}>
                                 <Brightness4Icon />
                             </IconButton>
-                        </Box>
+                        </Tooltip>
                     </Toolbar>
                 </Container>
             </AppBar>
             <Box component="nav">
                 <Drawer
-                    container={container}
                     variant="temporary"
                     open={mobileOpen}
                     onClose={handleDrawerToggle}
@@ -95,7 +104,7 @@ export default function Nav(props) {
                     {drawer}
                 </Drawer>
             </Box>
-            <Box component="main" sx={{ p: 3 }}>
+            <Box sx={{ p: 3 }}>
                 <Toolbar />
             </Box>
         </Box>

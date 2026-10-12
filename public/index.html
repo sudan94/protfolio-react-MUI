@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#2563eb" />
     <meta name="author" content="Sudan Upadhaya" />
     <meta name="robots" content="index, follow" />
 
     <meta name="description" content="Sudan Upadhaya is a software engineer specializing in PHP and Python backends, distributed systems, and AI-aware tooling. Browse the portfolio, experience, and projects built for broadcast clients and LangChain prototypes.">
-    <meta name="keywords" content="Sudan Upadhaya, software engineer, PHP, Python, FastAPI, Laravel, RabbitMQ, Docker, LangChain, backend developer, portfolio, Cologne, Germany">
+    <meta name="keywords" content="Sudan Upadhaya, software engineer, PHP, Python, FastAPI, Laravel, RabbitMQ, Docker, LangChain, backend developer, portfolio, Koblenz, Germany">
 
     <link rel="canonical" href="https://sudanupadhaya.com.np" />
 
@@ -49,8 +49,8 @@
           "https://github.com/sudan94",
           "https://linkedin.com/in/sudan-upadhaya-9185b3185"
         ],
-        "description": "Full-stack engineer building resilient PHP/Python backends, distributed systems, and AI workflows for broadcast clients.",
-        "knowsAbout": ["PHP", "Python", "FastAPI", "Laravel", "RabbitMQ", "Docker", "LangChain", "REST API", "MySQL", "PostgreSQL"],
+        "description": "Backend-focused full-stack developer building production systems for RTL, RedSeven and Bild TV, now building Python services with FastAPI, PostgreSQL and React.",
+        "knowsAbout": ["Python", "FastAPI", "PostgreSQL", "React", "TypeScript", "PHP", "Laravel", "RabbitMQ", "Docker", "LangChain", "LangGraph", "RAG", "REST API", "MySQL"],
         "alumniOf": [
           {
             "@type": "CollegeOrUniversity",
@@ -76,11 +76,13 @@
       </style>
       <header>
         <h1>Hi, I'm Sudan.</h1>
-        <p>I write code for a living and for fun. PHP by day, Python and LLMs by night. I'm passionate about crafting efficient, scalable software and exploring the latest in AI and LLM technologies.</p>
+        <p>I write code for a living and for fun. I&#39;ve spent the last few years building backend systems used every day by editorial teams at RTL, RedSeven and Bild TV: REST APIs, RabbitMQ messaging and SQL that doesn&#39;t fall over. These days I&#39;m building Python services with FastAPI, PostgreSQL and React, with a soft spot for anything LLM.</p>
         <p>
-          <span class="badge">PHP 8.3</span>
+          <span class="badge">Python</span>
           <span class="badge">FastAPI</span>
-          <span class="badge">Laravel</span>
+          <span class="badge">PostgreSQL</span>
+          <span class="badge">React</span>
+          <span class="badge">PHP 8+</span>
           <span class="badge">RabbitMQ</span>
           <span class="badge">Docker</span>
           <span class="badge">LangChain</span>
@@ -90,52 +92,48 @@
       <main>
         <h2>Work Experience</h2>
 
-        <h3>Software Developer (Full Stack) — simpleRedak, Cologne</h3>
-        <p><em>December 2024 – December 2025</em></p>
+        <h3>Independent Software Developer — Self-directed projects, Koblenz</h3>
+        <p><em>January 2026 – Present</em></p>
         <ul>
-          <li>Built RTL REST APIs with PHPUnit TDD for casting workflows.</li>
-          <li>Managed RabbitMQ, Linux, and async queues to keep services in sync.</li>
-          <li>Cut slow SQL paths by ~60% with query tuning and memory tweaks.</li>
-          <li>Technologies: PHP 8+, JavaScript, MySQL, RabbitMQ, Git, Docker</li>
+          <li>Build and ship full-stack applications end to end: FastAPI backends, PostgreSQL data models and React/TypeScript frontends.</li>
+          <li>Integrate third-party APIs into backend workflows, such as automatic task creation in Trello from processed meeting data.</li>
+          <li>Built a daily automated data pipeline that aggregates and scores job postings from multiple sources, with cheaper filters gating LLM calls to control cost.</li>
         </ul>
 
-        <h3>Software Developer (Full Stack) Working Student — simpleRedak, Cologne</h3>
+        <h3>Software Developer (Full Stack) — simpleRedak - .schoenke - eMedia Consulting, Cologne</h3>
+        <p><em>September 2024 – December 2025</em></p>
+        <ul>
+          <li>Developed and maintained production software used daily by major German TV broadcasters, including RTL, RedSeven and Bild TV.</li>
+          <li>Built event-driven form submission with RabbitMQ across a three-server setup (web, middleware, core system), decoupling the public site from the core system.</li>
+          <li>Designed a self-service dynamic form platform where administrators configure fields and business rules themselves.</li>
+          <li>Fixed a performance bottleneck on a 100k+ record dataset by rewriting SQL queries and cutting memory use, reducing response times by ~60%.</li>
+          <li>Owned client features across the full stack, backed by PHPUnit tests and code review.</li>
+        </ul>
+
+        <h3>Working Student — simpleRedak - .schoenke - eMedia Consulting, Cologne</h3>
         <p><em>September 2021 – August 2024</em></p>
         <ul>
-          <li>Delivered operations tools for RTL, BILD, and Redseven broadcasters.</li>
-          <li>Built a talent portal plus REST API layer for media workflows.</li>
-          <li>Refreshed legacy MVC code with SOLID patterns for easier maintenance.</li>
-          <li>Migrated multiple apps from PHP 5/7 to PHP 8.3.</li>
+          <li>Built a self-service talent portal end to end where performers register, manage profiles, upload media and apply to TV productions.</li>
+          <li>Led migration of multiple systems from PHP 5/7 to PHP 8.3 across a large, established codebase.</li>
+          <li>Designed and delivered RESTful APIs using Test-Driven Development with PHPUnit.</li>
+          <li>Refactored a legacy codebase inside a custom MVC framework, applying OOP and SOLID principles.</li>
         </ul>
 
-        <h3>Full-Stack Developer — Grab Info-tech, Kathmandu</h3>
+        <h3>Full-Stack Developer — Grab Info-tech Private Limited, Kathmandu</h3>
         <p><em>August 2019 – February 2020</em></p>
         <ul>
-          <li>Expanded a school management platform with new backend features.</li>
-          <li>Designed REST APIs to guide migration from legacy PHP to Laravel.</li>
-        </ul>
-
-        <h2>Projects</h2>
-        <ul>
-          <li><a href="https://github.com/sudan94/event-management-laravel-api-react">Event Management Application</a> — Containerised event management system with an API-first Laravel backend, React frontend, and PostgreSQL database deployed via Docker Compose.</li>
-          <li><a href="https://vedic-astro-ai.vercel.app/">Vedic Astro App</a> — Vedic astrology app that calculates planetary data and lets users chat with an AI assistant using chart-based knowledge.</li>
-          <li><a href="https://github.com/sudan94/chat-with-pdf-doc">Chat with PDF</a> — AI chatbot using the OpenAI API to answer questions and extract insights from PDF and DOC documents.</li>
-          <li><a href="https://github.com/sudan94/php-mini-framework">Mini-PHP Framework</a> — Lightweight custom framework with routing, authentication, CSRF protection, input validation, PDO database layer, and Twig templating.</li>
-          <li><a href="https://github.com/sudan94/ai-meeting-minutes">AI Meeting Minutes</a> — End-to-end meeting transcription and summarisation system built with Whisper and an LLM, featuring a FastAPI backend, PostgreSQL storage, and React frontend.</li>
+          <li>Delivered new backend features for a school management platform and improved frontend integration.</li>
+          <li>Designed RESTful APIs and helped migrate a legacy PHP codebase toward Laravel.</li>
         </ul>
 
         <h2>Skills</h2>
-        <p><strong>Languages:</strong> PHP, Python, JavaScript, TypeScript, HTML, CSS</p>
-        <p><strong>Frameworks &amp; Libraries:</strong> FastAPI, Flask, Laravel, React, jQuery, Bootstrap, MUI</p>
-        <p><strong>Databases:</strong> MySQL, PostgreSQL, SQL query optimisation, SQLAlchemy</p>
-        <p><strong>Infrastructure &amp; Tools:</strong> Docker, RabbitMQ, Git, Linux, CI/CD, Postman, PHPUnit, Pytest</p>
-        <p><strong>Concepts:</strong> REST API design, OOP, SOLID principles, Unit Testing, Distributed Systems</p>
-        <p><strong>AI / LLM:</strong> OpenAI APIs, Whisper, LangChain, RAG</p>
-
-        <h2>Education</h2>
-        <p><strong>Master in Web and Data Science</strong> — University of Koblenz, Germany (2020–2024)<br>
-        Master's Thesis: Fine-tuning LLMs for Irony Detection with Python and Hugging Face.</p>
-        <p><strong>Bachelor of Information Management (BIM)</strong> — Tribhuvan University, Kathmandu (2013–2017)</p>
+        <p><strong>Languages:</strong> Python, PHP 8+, JavaScript, TypeScript, HTML, CSS</p>
+        <p><strong>Frameworks &amp; Libraries:</strong> FastAPI, Streamlit, Laravel, React, MUI, SQLAlchemy</p>
+        <p><strong>Databases:</strong> PostgreSQL, MySQL, NoSQL</p>
+        <p><strong>Infrastructure &amp; Tools:</strong> Docker, RabbitMQ, Git, Linux (CLI), CI/CD, GitHub Copilot, Claude Code</p>
+        <p><strong>Concepts:</strong> REST API design, OOP, SOLID principles, TDD, Distributed Systems</p>
+        <p><strong>AI / LLM:</strong> OpenAI APIs, Whisper, LangChain, LangGraph, RAG, Embeddings</p>
+        <p><strong>Familiar with:</strong> AWS, Kubernetes</p>
 
         <h2>Contact</h2>
         <p>
